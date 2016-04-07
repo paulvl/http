@@ -1,0 +1,26 @@
+{
+  "name": "paulvl/http",
+  "description": "HTTP Status Codes",
+  "keywords": [
+    "php",
+    "http",
+    "status",
+    "code"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Vidal",
+      "email": "i@paulvl.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Paulvl\\Http\\": "src/"
+    }
+  }
+}
